@@ -344,7 +344,9 @@ public class WebpDrawable extends Drawable implements WebpFrameLoader.FrameCallb
         if (animationCallbacks == null) {
             animationCallbacks = new ArrayList<>();
         }
-        animationCallbacks.add(animationCallback);
+        if (!animationCallbacks.contains(animationCallback)){
+            animationCallbacks.add(animationCallback);
+        }
     }
 
     @Override
