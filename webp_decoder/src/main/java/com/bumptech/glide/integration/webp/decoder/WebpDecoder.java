@@ -200,8 +200,6 @@ public class WebpDecoder implements GifDecoder {
     @Override
     public Bitmap getNextFrame() {
         int frameNumber = getCurrentFrameIndex();
-        Log.d(TAG, "getNextFrame frameNumber=" + frameNumber+"/"+getFrameCount());
-
         // Get the target Bitmap for Canvas
         Bitmap bitmap = mBitmapProvider.obtain(downsampledWidth, downsampledHeight, Bitmap.Config.ARGB_8888);
         bitmap.eraseColor(Color.TRANSPARENT);

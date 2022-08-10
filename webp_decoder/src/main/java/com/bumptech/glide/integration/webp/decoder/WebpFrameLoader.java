@@ -225,7 +225,6 @@ public class WebpFrameLoader {
             webpDecoder.resetFrameIndex();
             startFromFirstFrame = false;
         }
-        Log.d("WebpDecoder","stopFrameIndex"+stopFrameIndex);
         if (stopFrameIndex != -1){
             if (webpDecoder.hasCache(stopFrameIndex)){
                 webpDecoder.setFrameIndex(stopFrameIndex);
