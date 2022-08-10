@@ -7,6 +7,7 @@ Original project [GlideWebpDecoder](https://github.com/zjupure/GlideWebpDecoder)
 
 ## Usage
 
+下载并导入 aar包 [webp.aar](https://github.com/liuhuan0225/GlideWebpDecoder-Public/blob/main/webp_decoder/aar/webp.aar)
 
 ```
 Transformation<Bitmap> circleCrop = new CircleCrop();
