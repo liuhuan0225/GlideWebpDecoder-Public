@@ -256,6 +256,7 @@ public class WebpFrameLoader {
         if (stopFrameIndex != -1){
             if (webpDecoder.getCurrentFrameIndex() == stopFrameIndex){
                 stop();
+                stopFrameIndex = -1;
             }
         }
     }
