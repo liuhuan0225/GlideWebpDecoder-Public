@@ -1,0 +1,9 @@
+{
+  "ndkVersionFromDsl": "21.0.6113669",
+  "ndkDirProperty": "/Users/adt/Library/Android/sdk/ndk/21.0.6113669",
+  "sdkFolder": "/Users/adt/Library/Android/sdk",
+  "sideBySideNdkFolderNames": [
+    "21.0.6113669",
+    "25.0.8775105"
+  ]
+}

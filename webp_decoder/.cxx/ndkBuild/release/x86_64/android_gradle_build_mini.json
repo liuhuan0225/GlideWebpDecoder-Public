@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/src/main/jni/Android.mk",
+    "/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/adt/Library/Android/sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "buildTargetsCommand": "/Users/adt/Library/Android/sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/build/intermediates/ndkBuild/release/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "cpufeatures-release-x86_64": {
+      "artifactName": "cpufeatures",
+      "buildCommand": "/Users/adt/Library/Android/sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/build/intermediates/ndkBuild/release/lib /Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/build/intermediates/ndkBuild/release/obj/local/x86_64/libcpufeatures.a",
+      "abi": "x86_64",
+      "output": "/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/build/intermediates/ndkBuild/release/obj/local/x86_64/libcpufeatures.a",
+      "runtimeFiles": []
+    },
+    "glide-webp-release-x86_64": {
+      "artifactName": "glide-webp",
+      "buildCommand": "/Users/adt/Library/Android/sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/build/intermediates/ndkBuild/release/lib /Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/build/intermediates/ndkBuild/release/obj/local/x86_64/libglide-webp.so",
+      "abi": "x86_64",
+      "output": "/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/build/intermediates/ndkBuild/release/obj/local/x86_64/libglide-webp.so",
+      "runtimeFiles": []
+    },
+    "webp-release-x86_64": {
+      "artifactName": "webp",
+      "buildCommand": "/Users/adt/Library/Android/sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/build/intermediates/ndkBuild/release/lib /Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/build/intermediates/ndkBuild/release/obj/local/x86_64/libwebp.a",
+      "abi": "x86_64",
+      "output": "/Users/adt/Documents/otherwork/GlideWebpDecoder-master/webp_decoder/build/intermediates/ndkBuild/release/obj/local/x86_64/libwebp.a",
+      "runtimeFiles": []
+    }
+  }
+}
